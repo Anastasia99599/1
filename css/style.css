@@ -243,6 +243,7 @@
 
     .trends {
         margin-top: 50px;
+        width: calc (100% - 27px);
 }
 
     .trends-list {
@@ -395,7 +396,7 @@
         display: flex;
 }
 
-    .article:nth-child(n+1):not(:last-child) {
+    .article {
         margin-bottom: 56px;
 }
 
@@ -598,7 +599,7 @@
         flex-direction: row;
 }
 
-    .post:nth-child(n+1):not(:last-child) {
+    .post {
         margin-bottom: 18px;
 }
 
@@ -785,7 +786,7 @@
         font-size: 14px;
 }
 
-    .category:nth-child(n+1):not(:last-child) {
+    .categories-list {
         margin-bottom: 10px;
 }
 
@@ -961,13 +962,13 @@
         padding-bottom: 24px;
 }
 
-    .first-box {
+    .social-item_twitter {
         margin-right: 22px;
 }
-    .second-box {
+    .social-item_pinterest {
         margin-right: 22px;
 }
-    .third-box {
+    .social-item-tumblr {
     margin-right: 22px;
 }
 
