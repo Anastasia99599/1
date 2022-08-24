@@ -243,7 +243,6 @@
 
     .trends {
         margin-top: 50px;
-        width: calc (100% - 27px);
 }
 
     .trends-list {
@@ -564,6 +563,10 @@
 }
 
 /*SECTIONS-NEW_POSTS*/
+
+    .latest-posts {
+        width: calc (100% - 25px);
+    }
 
     .latest-side {
         margin-bottom: 25px; 
